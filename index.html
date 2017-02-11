@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/wap.css">
 </head>
 
-<body>
+<body ng-app="movieApp">
     <!-- 顶部导航栏开始 -->
     <div class="top">
         <div class="header">
@@ -32,7 +32,7 @@
     <div class="container">
         <!-- 单页应用程序中：首页、列表页、详情页 展示的位置 -->
         <div ng-view>
-            
+
         </div>
         <!-- 电影详情开始 -->
         <div class="detail">
@@ -68,6 +68,14 @@
     </footer>
     <!-- 自动补全C3样式的前缀 -->
     <script src="assets/js/prefixfree.min.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="route.js"></script>
+    <script src="service.js"></script>
+    <script src="nowplaying.js"></script>
+    <script src="later.js"></script>
+    <script src="top250.js"></script>
 </body>
 
 </html>
