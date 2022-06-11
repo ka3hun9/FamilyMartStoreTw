@@ -1,0 +1,36 @@
+{
+  "name": "familymartstoretw",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "familymart store address",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "axios-retry": "^3.2.5",
+    "lodash-es": "^4.17.21",
+    "qs": "^6.10.5",
+    "rollup": "^2.75.6",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "node src/main.js",
+    "exec": "rollup -c && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamhung/FamilyMartStoreTw.git"
+  },
+  "keywords": [
+    "familymart",
+    "stores",
+    "address"
+  ],
+  "author": "kamhung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamhung/FamilyMartStoreTw/issues"
+  },
+  "homepage": "https://github.com/kamhung/FamilyMartStoreTw#readme"
+}
